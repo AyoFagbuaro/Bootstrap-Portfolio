@@ -12,7 +12,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,7 +64,7 @@
                 >Work</a
               >
             </li>
-            <li class="nav-item" id="contact">
+            <li class="nav-item">
               <a class="nav-link active fw-bold text-uppercase" href="#Contact"
                 >Contact</a
               >
@@ -110,7 +114,7 @@
 
       <!-- Work section -->
 
-      <section class="work-section d-flex">
+      <section class="work-section d-flex" id="Work">
         <h2>Work</h2>
 
         <!-- Stack the columns on mobile by making one full-width and the other half-width -->
@@ -253,33 +257,58 @@
 
     <!-- Footer/Contact -->
 
-    <section class="page-section contact d-flex" id="contact">
+    <section class="contact-section d-flex" id="Contact">
       <h2 class="d-none d-lg-block d-xl-block">Contact Me</h2>
-      <!-- <footer class="d-flex justify-content-evenly align-center">
-        <div class="col-sm-6 mb-3.mb-sm-0"><a href="#contact">07949911483</a></div>
-        
 
-        <a href="mailto:ayofagbuaro.dev@gmail.com">ayofagbuaro.dev@gmail.com</a>
-
-        <a href="https://github.com/AyoFagbuaro">Github</a>
-      </footer> -->
-
-      <div class="container-fluid">
-        <div class="footer">
-          <div class="row text-center">
-            <div class="col-md-3">
-              <h3>Contact</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fa-brands fa-github text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Github</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="https://github.com/AyoFagbuaro">
+                    <i class="fa-brands fa-github fa-beat fa-lg"></i
+                  ></a>
+                </div>
+              </div>
             </div>
-            <div class="col-md-3">
-              <h3>Email</h3>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="mailto:ayofagbuaro.dev@gmail.com"
+                    >ayofagbuaro.dev@gmail.com</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="col-md-3">
-              <h3>Github</h3>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fa-sharp fa-solid fa-phone text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="tel:07949911483">07949911483</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div class="social d-flex justify-content-center">
+          <i class="fa-regular fa-copyright">All rights reserved 2023</i>
+        </div>
       </div>
     </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
